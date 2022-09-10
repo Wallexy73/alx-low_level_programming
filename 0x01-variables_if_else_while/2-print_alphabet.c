@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main -print alphabet in lower ca * return: always (0) success 
+ * main -print alphabet in lower case
+ * return: always (0) success 
  */
 int main(void)
 {
