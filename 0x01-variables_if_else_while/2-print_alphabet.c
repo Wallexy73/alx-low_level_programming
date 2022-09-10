@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - print alphabet in lower case
+ * main - prints alphabet in lowercase
  * followed by a new line
- * return: always (0) success 
+ * Return: Always 0 (Success) 
  */
 int main(void)
 {
@@ -13,6 +13,6 @@ int main(void)
 	{
 		putchar(ch);
 	}
-        putchar('\n');
+	putchar('\n');
 	return (0);
-}			
+}
