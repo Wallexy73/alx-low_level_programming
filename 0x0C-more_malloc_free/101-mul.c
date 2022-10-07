@@ -7,7 +7,6 @@
  * @s: string to be evaluated
  *
  * Return: 0 if a non-digit is found, 1 otherwise
- *
  */
 int is_digit(char *s)
 {
@@ -70,6 +69,8 @@ int main(int argc, char *argv[])
 	if (!result)
 		return (1);
 	for (i = 0; i <= len1 + len2; i++)
+		result[i] = 0;
+	for (len1 = len1 - 1; len1 >= 0; len1--)
 	{
 		digit1 = s1[len1] - '0';
 		carry = 0;
