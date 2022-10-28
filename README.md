@@ -1,1 +1,2 @@
-Pointer Arrays _Strings coding execise
+Bit manipulation in C-programming
+
