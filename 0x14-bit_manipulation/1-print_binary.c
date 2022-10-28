@@ -7,9 +7,9 @@
  */
 void print_binary(unsigned long int n)
 {
-	unsigned long int temp
+	unsigned long int temp;
 	int shifts;
-	
+
 	if (n == 0)
 	{
 		printf("0");
@@ -17,7 +17,6 @@ void print_binary(unsigned long int n)
 	}
 
 	for (temp = n, shifts = 0; (temp >>= 1) > 0; shifts++)
-
 		;
 
 	for (; shifts >= 0; shifts--)
@@ -27,3 +26,4 @@ void print_binary(unsigned long int n)
 		else
 			printf("0");
 	}
+}
